@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio5</title>
+    <link rel="stylesheet" href="laboratorio5xd.css">
+</head>
+<body>
+    <h1>Formulario Laboratorio5</h1>
+    <div>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Datos personales</legend>
+                Nombre: <input type="text" id="name" name="name" required maxlength="50"><br>
+                Contraseña: <input type="password" name="contraseña" id="contraseña" required minlength="8" pattern="[A-Za-z0-9]+"><br>
+                Correo electrónico: <input type="email" id="email" name="email" required><br>
+                Teléfono: <input type="number" name="telefono" id="telefono"><br>
+                <label for="date">Fecha de nacimiento:</label>
+                <input type="date" name="date" id="date"><br>
+                <label for="city">Ciudad:</label>
+                <select name="city" id="city">
+                    <option value="Seleccione" selected disabled>Selecciona tu ciudad</option>
+                    <option value="Sa">Santa Marta</option>
+                    <option value="Me">Medellín</option>
+                    <option value="Bo">Bogotá</option>
+                    <option value="Zo">Zona Bananera</option>
+                </select><br><br>
+                <input type="submit" name="enviar" id="enviar" value="Enviar">
+               <button type="submit">borrar</button>
+                
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

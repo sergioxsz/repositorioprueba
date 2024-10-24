@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+    background-color: bisque;
+    box-shadow: 20px;
+    margin: 0;
+    padding: 2px;
+}
+
+body {
+
+    background-image: url(abstract-blue-background-simple-design-for-your-website-free-vector.jpg);
+}
+
+
+
+
+
+
+
+div {
+
+text-align: left;
+display: block;
+color: lightblue;
+
+}
+
+label {
+
+    display: block;
+}
+
+legend {
+    display: block;
+}
+
+input {
+
+    display: block;
+    width: 30%;
+    text-align: center;
+
+}
+
+button {
+
+    width: 30%;
+}
